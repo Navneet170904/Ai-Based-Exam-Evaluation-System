@@ -1,0 +1,182 @@
+.home-content {
+  flex: 1;
+  width: 100%;
+}
+
+/* Hero Section Styles */
+.hero-section {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  padding: 3rem 1.5rem;
+  min-height: calc(100vh - 150px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-info {
+  width: 100%;
+  text-align: center;
+}
+
+.project-info h1 {
+  font-size: 2.2rem;
+  color: #2c3e50;
+  margin-bottom: 1.2rem;
+  line-height: 1.4;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 1.8rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  color: #333;
+  padding: 0.8rem;
+  background: rgba(255, 114, 0, 0.15);
+  border-radius: 10px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+.feature-item:hover {
+  background: rgba(255, 114, 0, 0.25);
+  transform: translateY(-3px);
+}
+
+.feature-icon {
+  color: #ff7200;
+  font-size: 1.4rem;
+}
+
+/* Auth Container Styles */
+.auth-container {
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-form-text {
+  text-align: center;
+  margin-top: 1.8rem;
+  color: #666;
+  font-size: 1rem;
+}
+
+.toggle-form-btn {
+  background: none;
+  border: none;
+  color: #ff7200;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.toggle-form-btn:hover {
+  text-decoration: underline;
+  color: #d85c00;
+}
+
+/* Tablet and Desktop Styles */
+@media (min-width: 768px) {
+  .hero-section {
+    padding: 4rem 2.5rem;
+  }
+
+  .hero-content {
+    flex-direction: row;
+    align-items: center;
+    gap: 3.5rem;
+    padding: 2.5rem;
+  }
+
+  .project-info {
+    width: 58%;
+    text-align: left;
+  }
+
+  .project-info h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2.2rem;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+    margin-bottom: 0;
+  }
+
+  .feature-item {
+    flex-direction: row;
+    justify-content: flex-start;
+    background: transparent;
+    padding: 0;
+  }
+
+  .auth-container {
+    width: 42%;
+  }
+}
+
+/* Large Desktop Styles */
+@media (min-width: 1200px) {
+  .hero-section {
+    padding: 5rem 3rem;
+  }
+
+  .hero-content {
+    gap: 5rem;
+  }
+
+  .project-info h1 {
+    font-size: 3.2rem;
+  }
+}
+
+/* Very Small Mobile Devices */
+@media (max-width: 400px) {
+  .project-info h1 {
+    font-size: 1.8rem;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+}
