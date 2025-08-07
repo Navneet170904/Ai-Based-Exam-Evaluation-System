@@ -28,19 +28,22 @@ An intelligent, end-to-end exam evaluation platform that leverages **Artificial 
 
 ---
 
-## 🗂️ Project Structure
+## 📁 Folder Structure
 
-├── app.py # Flask backend server
-├── frontend/ # React frontend interface
-├── model/ # AI/NLP model scripts
-├── test_images/ # Sample test images
-├── uploads/ # Uploaded exam sheets
-├── confirm_images/ # AI-confirmed results
-├── predict/results/ # Model output predictions
-├── roll1.jpg # Sample answer sheet
-├── student_marks.xlsx # Exported evaluation report
-├── README.md # Documentation
-└── .gitignore # Git ignore rules
+| Path / Folder            | Description                                                                 |
+|--------------------------|-----------------------------------------------------------------------------|
+| `app.py`                 | Main Flask backend application file.                                        |
+| `frontend/`              | React.js frontend interface for uploading sheets and displaying results.    |
+| `model/`                 | Contains OCR/NLP models and evaluation logic.                               |
+| `uploads/`               | Stores uploaded student answer sheet images.                                |
+| `test_images/`           | Contains sample images used for testing the model.                          |
+| `confirm_images/`        | AI-confirmed output images after processing and evaluation.                 |
+| `predict/results/`       | Generated predictions and annotated result images.                          |
+| `roll1.jpg`              | Sample image file for demonstration/testing.                                |
+| `student_marks.xlsx`     | Final Excel sheet containing evaluated student marks.                       |
+| `.gitignore`             | Specifies files and directories to be ignored by Git version control.       |
+| `README.md`              | Documentation file describing the project structure and usage.              |
+
 
 ---
 
@@ -58,8 +61,9 @@ An intelligent, end-to-end exam evaluation platform that leverages **Artificial 
 cd frontend
 npm install
 npm start
+```
 
-App will run at http://localhost:5173
+# App will run at http://localhost:5173
 
 ---
 
@@ -81,8 +85,9 @@ pip install -r requirements.txt
 
 # Start the server
 python app.py
+```
 
-🖥️ Server runs at: http://localhost:5000
+# 🖥️ Server runs at: http://localhost:5000
 
 ---
 
@@ -112,3 +117,4 @@ CSE (AI & ML) Graduate | Backend & AI Developer
 
 📫 [LinkedIn](https://www.linkedin.com/in/navneet-kumar-yadav/)  
 🔗 GitHub: (https://github.com/Navneet170904)
+
