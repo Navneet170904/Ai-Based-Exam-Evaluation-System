@@ -63,7 +63,7 @@ npm install
 npm start
 ```
 
-# App will run at http://localhost:5173
+### App will run at http://localhost:5173
 
 ---
 
@@ -87,7 +87,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-# 🖥️ Server runs at: http://localhost:5000
+### 🖥️ Server runs at: http://localhost:5000
 
 ---
 
@@ -117,4 +117,5 @@ CSE (AI & ML) Graduate | Backend & AI Developer
 
 📫 [LinkedIn](https://www.linkedin.com/in/navneet-kumar-yadav/)  
 🔗 GitHub: (https://github.com/Navneet170904)
+
 
